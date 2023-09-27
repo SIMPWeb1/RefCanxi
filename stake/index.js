@@ -24,7 +24,7 @@ function connect () {
 
 function getRef() {
   refCode =`refcanxi.me/${generateCode().toLowerCase()}`
-    document.getElementById("ref").innerText= refCode
+    document.getElementById("ref").innerText= refCode + " (0 referral)"
     document.getElementById("btn-get-ref").style.display= `none`
     document.getElementsByClassName("ref-cop")[0].style.marginRight="0px"
 }
